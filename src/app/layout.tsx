@@ -12,7 +12,7 @@ const inter = Noto_Serif_SC ({
   weight: ['400', '700']
 });
 
-const title = 'Create Next App'
+const title = '银杏树之下'
 const description = '占位符占位符占位符占位符占位符'
 
 
