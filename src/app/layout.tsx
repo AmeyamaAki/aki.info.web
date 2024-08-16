@@ -20,22 +20,22 @@ export const metadata: Metadata = {
   title,
   description,
   generator: 'Next.js',
-  applicationName: 'Your App Name',
+  applicationName: 'aki.info',
   authors: [{ name: 'Ameyama Aki', url: 'https://github.com/ameyama_aki' }],
   openGraph: {
     title,
     description,
     type: 'website',
     locale: 'zh_CN',
-    // url: 'Your website URL',
-    // images: [{ url: 'https://website.png', width: 800, height: 600 }],
+    url: 'https://aki.cat',
+    images: [{ url: 'https://aki.cat/website.png'}],
   },
   twitter: {
     card: 'summary_large_image',
     title,
     description,
     creator: '@ameyama_aki',
-    // images: ['https://website.png'],
+    images: ['https://aki.cat/website.png'],
   },
 };
 export default function RootLayout({
