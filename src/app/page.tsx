@@ -16,18 +16,18 @@ const Home: React.FC = () => {
           />
         </div>
         <div className="text-center mb-8">
-          <h1 className="text-4xl font-bold mb-2">雨山秋</h1>
+          <h1 className="text-4xl font-bold mb-2">秋 雨山</h1>
           <p className="text-lg text-gray-700 dark:text-gray-300">占位符占位符占位符占位符占位符</p>
         </div>
         
         <div className="w-full">
           <blockquote className="blockquote-custom">
             <p className="leading-relaxed">
-              银杏树下躺着一位孩子，她的名字...是叫「雨山秋」来着？
+              银杏树下躺着一位孩子，她的名字...是叫「雨山秋」来着？<br /><del>是雨山秋，不是秋雨山 ＼⁠(ﾟ⁠ｰﾟ⁠＼⁠) </del>
             </p>
           </blockquote>
           <p className="leading-relaxed mb-5">
-            关于她，目前并没有更多情报可以公开...
+            关于她，目前并没有更多信息可以公开...
           </p>
           <blockquote className="blockquote-custom">
             <p className="leading-relaxed">
@@ -36,12 +36,12 @@ const Home: React.FC = () => {
           </blockquote>
           <blockquote className="blockquote-custom">
             <p className="leading-relaxed">
-            <a href="https://t.me/Sea_of_Sunflower">@Sea_of_Sunflower</a> 是雨山秋的日常频道，感兴趣的可以看看~
+              <a href="https://t.me/Sea_of_Sunflower">@Sea_of_Sunflower</a> 是雨山秋的日常频道，感兴趣的话可以来看看~
             </p>
           </blockquote>
           <blockquote className="blockquote-custom">
             <p className="leading-relaxed">
-              雨山秋的好朋友，或许你/妳可以认识一下w /<br />@Souiken<br />@S_chans
+              秋也会在其他的平台上出现，例如 <a href="https://x.com/Ameyama_aki">X</a>
             </p>
           </blockquote>
         </div>

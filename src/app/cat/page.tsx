@@ -1,8 +1,27 @@
 import { Metadata } from 'next';
 import Image from 'next/image';
 
+const title = 'Sota el ginkgo'
+const description = '占位符占位符占位符占位符占位符'
+
 export const metadata: Metadata = {
-    title: 'Sota el ginkgo',
+    title,
+    description,
+    openGraph: {
+        title,
+        description,
+        type: 'website',
+        locale: 'ca',
+        url: 'https://aki.cat',
+        images: [{ url: 'https://aki.cat/website.png'}],
+      },
+      twitter: {
+        card: 'summary_large_image',
+        title,
+        description,
+        creator: '@ameyama_aki',
+        images: ['https://aki.cat/website.png'],
+      },
 };
 
 export default function CatalanPage() {
@@ -37,7 +56,7 @@ export default function CatalanPage() {
                         Aquest lloc web també està en construcció, us demanem que tingueu paciència...
                     </p>
                     <p className="leading-relaxed mb-5">
-                        Gràcies per la teva visita, et desitjo un bon dia.
+                        Gràcies per la teva visita, et desitjo un bon dia. ♥️
                     </p>
                     </div>
                 </div>
