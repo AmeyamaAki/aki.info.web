@@ -22,7 +22,7 @@ export default function CatalanPage() {
                     <div className="w-full">
                     <blockquote className="blockquote-custom">
                         <p className="leading-relaxed">
-                            Sota el ginkgo hi ha un nen estirat. El seu nom... era "Ameyama Aki"?
+                            Sota el ginkgo hi ha un nen estirat. El seu nom... era &#34;Ameyama Aki&#34;?
                         </p>
                     </blockquote>
                     <p className="leading-relaxed mb-5">
