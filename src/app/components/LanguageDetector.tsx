@@ -10,7 +10,7 @@ export default function LanguageDetector() {
   useEffect(() => {
     const detectAndRedirect = () => {
       // 获取浏览器的语言设置
-      const browserLanguages = navigator.languages || [navigator.language || navigator.userLanguage];
+      const browserLanguages = navigator.languages || navigator.language ;
       
       // 将浏览器语言设置转换为 accept-language-parser 可以理解的格式
       const languageHeader = browserLanguages.join(',');
