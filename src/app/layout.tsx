@@ -3,6 +3,7 @@
 import type { Metadata } from "next";
 import { Noto_Serif_SC } from "next/font/google";
 import Footer from "./components/Footer";
+import LanguageDetector from './components/LanguageDetector';
 import "./globals.css";
 
 const inter = Noto_Serif_SC ({
@@ -13,6 +14,7 @@ const inter = Noto_Serif_SC ({
 
 const title = 'Create Next App'
 const description = '占位符占位符占位符占位符占位符'
+
 
 export const metadata: Metadata = {
   title,
@@ -44,6 +46,7 @@ export default function RootLayout({
   return (
     <html lang="zh-CN">
       <body className={`bg-orange-200 dark:bg-slate-800 transition-colors duration-500 min-h-screen ${inter.className}`}>
+        <LanguageDetector />
         <main className="flex-grow">
           {children}
         </main>
