@@ -23,15 +23,17 @@ const Home: React.FC = () => {
         <div className="w-full">
           <blockquote className="blockquote-custom">
             <p className="leading-relaxed">
-              银杏树下躺着一位孩子，她的名字...是叫「雨山秋」来着？<br /><del>是雨山秋，不是秋雨山 ＼⁠(ﾟ⁠ｰﾟ⁠＼⁠) </del>
+              银杏树下躺着一位孩子，名字...是叫「雨山秋」来着？<br /><del>秋：是雨山秋，不是秋雨山啦 ＼⁠(ﾟ⁠ｰﾟ⁠＼⁠) </del>
             </p>
           </blockquote>
-          <p className="leading-relaxed mb-5">
-            关于她，目前并没有更多信息可以公开...
-          </p>
+          <blockquote className='blockquote-custom'>
+            <p className="leading-relaxed">
+              关于秋的事，只知道她收到陌生且新鲜的 DM 时，就会有点不知所措 <br /> 除此之外，她的更多信息仍然是个谜
+            </p>
+          </blockquote>
           <blockquote className="blockquote-custom">
             <p className="leading-relaxed">
-              但是你/妳也可以在其他地方找到她的踪迹，例如 <a href="https://t.me/SouikenHere">@SouikenHere</a>
+              你/妳也可以在其他地方找到她的踪迹 ，例如 <a href="https://t.me/SouikenHere">@SouikenHere</a>
             </p>
           </blockquote>
           <blockquote className="blockquote-custom">
