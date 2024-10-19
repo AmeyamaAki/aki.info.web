@@ -21,9 +21,7 @@ const Footer: React.FC = () => {
       >
         {isHovered && (
           <div className="text-center text-gray-700 dark:text-gray-300 flex items-center justify-between w-full">
-            <p className="text-xs sm:text-sm md:text-base truncate mr-2">
-              © {new Date().getFullYear()} Ameyama Aki. All rights reserved.
-            </p>
+            <div className='footer-text'>© {new Date().getFullYear()} Ameyama Aki. All rights reserved.</div>
             <span className="text-xs sm:text-sm bg-gray-200 dark:bg-gray-700 px-2 py-1 rounded whitespace-nowrap">
               Build ({commitSha.substring(0, 7)})
             </span>
