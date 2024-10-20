@@ -5,6 +5,7 @@ import React, { useState } from 'react';
 const Footer: React.FC = () => {
   const [isHovered, setIsHovered] = useState(false);
   const commitSha = process.env.NEXT_PUBLIC_GIT_COMMIT_SHA || 'unknown';
+  const githubUrl = 'https://github.com/AmeyamaAki/aki.info.web/commit/' + commitSha
 
   return (
     <footer 
@@ -22,9 +23,11 @@ const Footer: React.FC = () => {
         {isHovered && (
           <div className="text-center text-gray-700 dark:text-gray-300 flex items-center justify-between w-full">
             <div className='footer-text'>© {new Date().getFullYear()} Ameyama Aki. All rights reserved.</div>
-            <span className="text-xs sm:text-sm bg-gray-200 dark:bg-gray-700 px-2 py-1 rounded whitespace-nowrap">
-              Build ({commitSha.substring(0, 7)})
-            </span>
+            <a href={githubUrl} className='text-xs sm:text-sm text-gray-700 dark:text-gray-200 bg-gray-200 dark:bg-gray-700 px-2 py-1 rounded whitespace-nowrapd'>
+              <span>
+                Build ({commitSha.substring(0, 7)})
+              </span>
+            </a>
           </div>
         )}
       </div>
