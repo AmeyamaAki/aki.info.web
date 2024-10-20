@@ -1,5 +1,12 @@
 import React from 'react';
 import Image from 'next/image';
+import { Noto_Serif_JP } from "next/font/google";
+
+const twin = Noto_Serif_JP ({
+  subsets: ['latin'],
+  display: 'swap',
+  weight: ['400']
+})
 
 const Home: React.FC = () => {
   return (
@@ -16,7 +23,7 @@ const Home: React.FC = () => {
         </div>
         <div className="text-center mb-10">
           <h1 className="text-4xl sm:text-5xl font-bold mb-3">秋 雨山</h1>
-          <p className="text-lg sm:text-xl text-gray-600 dark:text-gray-300">占位符占位符占位符占位符占位符</p>
+          <p className={`text-lg sm:text-xl text-gray-600 dark:text-gray-300 ${twin.className}`}>僕を連れてって浸み込んでしまう前に</p>
         </div>
         
         <div className="w-full space-y-6">
