@@ -39,12 +39,12 @@ export default function CatalanPage() {
                 </div>
                 <div className='name-and-description'>
                     <h1>秋 雨山</h1>
-                    <p className='description'>Let's go let's go down deep for it</p>
+                    <p className='description'>Let&apos;s go let&apos;s go down deep for it</p>
                 </div>
 
                 <div className='content'>
                     <blockquote className="blockquote-custom fade-in" style={{animationDelay: '0.6s'}}>
-                        <p className='m-0'>Sota el ginkgo hi ha un nen estirat. El seu nom... era "Ameyama Aki"?</p>
+                        <p className='m-0'>Sota el ginkgo hi ha un nen estirat. El seu nom... era &quot;Ameyama Aki&quot;?</p>
                     </blockquote>
                     <p className="fade-in" style={{animationDelay: '0.8s'}}>
                         De moment, no hi ha més informació disponible sobre ella...
