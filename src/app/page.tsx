@@ -9,10 +9,18 @@ const twin = Noto_Serif_JP ({
 })
 
 const Home: React.FC = () => {
+  const description = [
+    "僕を連れてって浸み込んでしまう前に",
+    "溶け合い未来へ届くようにと",
+    "you know it's naughty virtual virtualize a life alive"
+  ]
+  const randomDescription = Math.floor(Math.random() * description.length);
+  const randomOutput = description[randomDescription];
+
   return (
-    <div className="min-h-screen w-full transition-colors duration-500 flex items-center justify-center p-4 overflow-y-auto dark:bg-black">
-      <div className="bg-white dark:bg-gray-800 dark:text-white shadow-xl rounded-xl p-8 sm:p-10 transition-all duration-500 flex flex-col items-center w-full max-w-[95%] sm:max-w-[85%] md:max-w-[75%] lg:max-w-[65%] xl:max-w-[55%] 2xl:max-w-[45%] my-8 fade-in">
-        <div className="mb-6 transform hover:scale-105 transition-transform duration-300">
+    <div className="background">
+      <div className="card">
+        <div className="avatar">
           <Image
             src="/avatar.jpg"
             alt="Avatar"
@@ -21,12 +29,12 @@ const Home: React.FC = () => {
             className="rounded-full shadow-lg"
           />
         </div>
-        <div className="text-center mb-10">
-          <h1 className="text-4xl sm:text-5xl font-bold mb-3">秋 雨山</h1>
-          <p className={`text-lg sm:text-xl text-gray-600 dark:text-gray-300 ${twin.className}`}>僕を連れてって浸み込んでしまう前に</p>
+        <div className="name-and-description">
+          <h1>秋 雨山</h1>
+          <p className={`description ${twin.className}`}>{randomOutput}</p>
         </div>
         
-        <div className="w-full space-y-6">
+        <div className="content">
           <p className="fade-in" style={{animationDelay: '0.2s'}}>
             银杏树之下，躺着一位名叫「雨山秋」的孩子
           </p>
@@ -44,7 +52,7 @@ const Home: React.FC = () => {
             关于秋的日常生活，可以左转 <a href="https://t.me/Sea_of_Sunflower" className="font-medium">@Sea_of_Sunflower</a> 看看w 
           </p>
           <p className="fade-in" style={{animationDelay: '1s'}}>
-            同时，也可以在其他的平台上找到秋~ <br/> 例如 <a href="https://x.com/Ameyama_aki" className="font-medium">X</a>
+            同时，也可以在其他的平台上找到秋~ <br/> 例如 <a href="https://x.com/Ameyama_aki" className="font-medium">X</a> 和 <a href="https://bsky.app/profile/aki.cat">Bluesky</a>
           </p>
         </div>
       </div>
