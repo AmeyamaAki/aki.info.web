@@ -52,7 +52,7 @@ const Home: React.FC = () => {
             关于秋的日常生活，可以左转 <a href="https://t.me/Sea_of_Sunflower" className="font-medium">@Sea_of_Sunflower</a> 看看w 
           </p>
           <p className="fade-in" style={{animationDelay: '1s'}}>
-            同时，也可以在其他的平台上找到秋~ <br/> 例如 <a href="https://x.com/Ameyama_aki" className="font-medium">X</a> 和 <a href="https://bsky.app/profile/aki.cat">Bluesky</a>
+            同时，也可以在其他的平台上找到秋~ <br/> 例如 <a href="https://x.com/Ameyama_aki" className="font-medium">X</a> / <a rel="me" href="https://el5.net/@AmeyamaAki">Mastodon</a> / <a href="https://bsky.app/profile/aki.cat">Bluesky</a>
           </p>
         </div>
       </div>
