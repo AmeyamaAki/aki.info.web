@@ -43,13 +43,13 @@ export default function CatalanPage() {
                 </div>
 
                 <div className='content'>
-                    <blockquote className="blockquote-custom fade-in" style={{animationDelay: '0.6s'}}>
+                    <blockquote className="blockquote-custom fade-in" style={{animationDelay: '0.2s'}}>
                         <p className='m-0'>Sota el ginkgo hi ha un nen estirat. El seu nom... era &quot;Ameyama Aki&quot;?</p>
                     </blockquote>
-                    <p className="fade-in" style={{animationDelay: '0.8s'}}>
+                    <p className="fade-in" style={{animationDelay: '0.4s'}}>
                         De moment, no hi ha més informació disponible sobre ella...
                     </p>
-                    <p className="fade-in" style={{animationDelay: '0.8s'}}>
+                    <p className="fade-in" style={{animationDelay: '0.6s'}}>
                         Aquest lloc web també està en construcció, us demanem que tingueu paciència...
                     </p>
                     <p className="fade-in" style={{animationDelay: '0.8s'}}>
