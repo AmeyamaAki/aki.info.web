@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import { Noto_Serif_JP } from "next/font/google";
 import { GetServerSideProps } from 'next';
+import Metadata from "@/pages/components/Metadata";
 
 const twin = Noto_Serif_JP ({
   subsets: ['latin'],
@@ -26,6 +27,11 @@ export const getServerSideProps: GetServerSideProps = async () => {
 
 const Home: React.FC<{ randomOutput: string }> = ({ randomOutput }) => {
   return (
+      <>
+        <Metadata
+            title="银杏树之下"
+            description="占位符占位符占位符占位符占位符"
+        />
       <div className="background">
         <div className="card">
           <div className="avatar">
@@ -65,6 +71,7 @@ const Home: React.FC<{ randomOutput: string }> = ({ randomOutput }) => {
           </div>
         </div>
       </div>
+      </>
   );
 };
 
