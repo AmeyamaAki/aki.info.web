@@ -1,3 +1,5 @@
+@import 'github-markdown-css/github-markdown.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -31,6 +33,10 @@ p {
 
 a {
   @apply text-orange-500 dark:text-orange-400 hover:underline transition-colors duration-300;
+}
+
+.a-no-underline {
+  @apply hover:no-underline;
 }
 
 .background {
@@ -67,6 +73,23 @@ a {
 
 .footer-text {
   @apply text-xs sm:text-sm md:text-base truncate mr-2
+}
+
+.post-card {
+  @apply mb-4;
+}
+
+.slug-card {
+  @apply bg-white dark:bg-gray-800 dark:text-white shadow-xl rounded-xl p-8 sm:p-10 transition-all duration-500 w-full max-w-[95%] sm:max-w-[85%] md:max-w-[75%] lg:max-w-[65%] xl:max-w-[55%] 2xl:max-w-[45%] my-8 fade-in
+}
+
+.markdown-body {
+  background: inherit;
+}
+
+
+.markdown-body a {
+  @apply text-orange-500 dark:text-orange-400 hover:underline transition-colors duration-300;
 }
 
 @layer utilities {

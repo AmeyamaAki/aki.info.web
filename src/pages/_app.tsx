@@ -8,7 +8,7 @@ import './globals.css';
 
 const inter = Noto_Serif_SC({
     subsets: ['latin'],
-    display: 'swap',
+    display: 'fallback',
     weight: ['400', '700'],
 });
 
