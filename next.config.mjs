@@ -3,18 +3,27 @@ import createMDX from '@next/mdx'
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    // Allow .mdx extensions for files
-    pageExtensions: ['js', 'jsx', 'mdx', 'ts', 'tsx'],
-    // Optionally, add any other Next.js config below
+  // 允许 .mdx 文件扩展名
+  pageExtensions: ['js', 'jsx', 'mdx', 'ts', 'tsx'],
+  // 更新 images 配置
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'rikka.im',
+        pathname: '/**',
+      },
+    ],
+  },
 }
 
 const withMDX = createMDX({
-    // Add markdown plugins here, as desired
-    options: {
-        remarkPlugins: [remarkGfm],
-        rehypePlugins: [],
-    },
+  // 根据需要添加 Markdown 插件
+  options: {
+    remarkPlugins: [remarkGfm],
+    rehypePlugins: [],
+  },
 })
 
-// Combine MDX and Next.js config
+// 合并 MDX 和 Next.js 配置
 export default withMDX(nextConfig)

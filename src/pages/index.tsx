@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import { Noto_Serif_JP } from "next/font/google";
 import { GetServerSideProps } from 'next';
 import Metadata from "@/pages/components/Metadata";
@@ -79,6 +80,9 @@ const Home: React.FC<{ randomOutput: string }> = ({ randomOutput }) => {
             </p>
             <p className="fade-in" style={{ animationDelay: '1s' }}>
               同时，也可以在其他的平台上找到秋~ <br /> 例如 <a href="https://x.com/Ameyama_aki" className="font-medium">X</a> / <a rel="me" href="https://el5.net/@AmeyamaAki">Mastodon</a> / <a href="https://bsky.app/profile/aki.cat">Bluesky</a>
+            </p>
+            <p className="fade-in" style={{ animationDelay: '1.2s' }}>
+              也可以去看看 <Link href="/friends">其他人的链接</Link> 的！
             </p>
           </div>
         </div>
