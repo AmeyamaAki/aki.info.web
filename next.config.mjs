@@ -13,6 +13,11 @@ const nextConfig = {
         hostname: 'rikka.im',
         pathname: '/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'izumino.cat',
+        pathname: '/**',
+      },
     ],
   },
 }
