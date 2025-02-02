@@ -34,8 +34,8 @@ const Home: React.FC<{ randomOutput: string }> = ({ randomOutput }) => {
         keyIndex++;
         if (keyIndex === keySequence.length) {
           alert("生まれ変わってもあたしがいいと思わないよ");
-          console.log('Easter Egg: You found the hidden sequence!');
-          window.open(atob("dGc6Ly9yZXNvbHZlP2RvbWFpbj1ha2lhbWV5X2JvdA=="));
+          console.log('You find it! 秋没想好放点什么，于是就奖励你一颗星星~ 🌟');
+          window.open(atob("dGc6Ly9yZXNvbHZlP2RvbWFpbj1kbV9ha2lfYm90"));
           keyIndex = 0;
         }
       } else {
@@ -58,7 +58,7 @@ const Home: React.FC<{ randomOutput: string }> = ({ randomOutput }) => {
             <Image src="/avatar.jpg" alt="Avatar" width={144} height={144} className="rounded-full shadow-lg" />
           </div>
           <div className="name-and-description">
-            <h1>秋 雨山</h1>
+            <h1>雨山秋</h1>
             <p className={`description ${twin.className}`}>{randomOutput}</p>
           </div>
           <div className="content">
@@ -66,23 +66,23 @@ const Home: React.FC<{ randomOutput: string }> = ({ randomOutput }) => {
               银杏树之下，躺着一位叫「雨山秋」的孩子
             </p>
             <p className="fade-in" style={{ animationDelay: '0.4s' }}>
-              秋的身上，仍然有许多东西是谜一样的存在... <br />当然，也有一些已知的信息：
+              秋的身上，仍然有许多谜一样的东西... <br />当然，也有一些已知的信息：
             </p>
             <blockquote className="blockquote-custom fade-in" style={{ animationDelay: '0.6s' }}>
               <ul className="list-disc pl-5 space-y-2">
-                <li>「秋雨山」只是姓名颠倒的结果 <del className="text-gray-500">，也有可能是秋故意的（小声）</del></li>
-                <li>在收到陌生且新鲜的 DM 时，秋会有些不知所措</li>
-                <li>喜欢用秋天相关的插画作为秋的头像</li>
+                <li>「秋雨山」只是姓名颠倒的结果 <del>，俨然已经成为了一个...新的名字？（小声）</del></li>
+                <li>面对陌生的 DM，秋会有些不知所措</li>
+                <li>喜欢用秋天相关的插画作为头像<del>吗？</del></li>
               </ul>
             </blockquote>
             <p className="fade-in" style={{ animationDelay: '0.8s' }}>
               有关秋的日常生活，可以左转 <a href="https://t.me/Sea_of_Sunflower" className="font-medium">@Sea_of_Sunflower</a> 看看w
             </p>
             <p className="fade-in" style={{ animationDelay: '1s' }}>
-              同时，也可以在其他的平台上找到秋~ <br /> 例如 <a href="https://x.com/Ameyama_aki" className="font-medium">X</a> / <a rel="me" href="https://el5.net/@AmeyamaAki">Mastodon</a> / <a href="https://bsky.app/profile/aki.cat">Bluesky</a>
+              同时，也可以在其他地方找到秋~ <br /> 例如 <a rel="me" href="https://el5.net/@AmeyamaAki">Mastodon</a> / <a href="https://bsky.app/profile/aki.cat">Bluesky</a> / <a href="https://x.com/Ameyama_aki" className="font-medium">X</a>
             </p>
             <p className="fade-in" style={{ animationDelay: '1.2s' }}>
-              也可以去看看 <Link href="/friends">其他人的链接</Link> 的！
+              或许可以看看 <Link href="/friends">其他人的链接</Link> ！
             </p>
           </div>
         </div>
