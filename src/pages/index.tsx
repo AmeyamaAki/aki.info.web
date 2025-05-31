@@ -76,7 +76,7 @@ const Home: React.FC<{ randomOutput: string }> = ({ randomOutput }) => {
               </ul>
             </blockquote>
             <p className="fade-in" style={{ animationDelay: '0.8s' }}>
-              有关秋的日常生活，可以左转 <a href="https://t.me/under_the_ginkgo" className="font-medium">@under_the_ginkgo</a> 继续阅读w
+              有关秋的日常生活，可以左转 <a href="https://t.me/under_ginkgo" className="font-medium">@under_ginkgo</a> 继续阅读w
             </p>
             <p className="fade-in" style={{ animationDelay: '1s' }}>
               同时，也可以在其他地方找到秋~ <br /> 例如 <a rel="me" href="https://el5.net/@AmeyamaAki">Mastodon</a> / <a href="https://bsky.app/profile/aki.cat">Bluesky</a> / <a href="https://x.com/Ameyama_aki" className="font-medium">X</a>
