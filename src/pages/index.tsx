@@ -71,18 +71,18 @@ const Home: React.FC<{ randomOutput: string }> = ({ randomOutput }) => {
             <blockquote className="blockquote-custom fade-in" style={{ animationDelay: '0.6s' }}>
               <ul className="list-disc pl-5 space-y-2">
                 <li>「秋雨山」只是姓名颠倒的结果 <del>，俨然已经成为了一个...新的名字？（小声）</del></li>
-                <li>面对陌生的 DM，秋会有些不知所措</li>
+                <li>面对陌生的 DM，秋会有些不知所措。<del>聊得多了就会发现秋其实是一个无趣的人</del></li>
                 <li>喜欢用秋天相关的插画作为头像<del>吗？</del></li>
               </ul>
             </blockquote>
             <p className="fade-in" style={{ animationDelay: '0.8s' }}>
-              有关秋的日常生活，可以左转 <a href="https://t.me/under_ginkgo" className="font-medium">@under_ginkgo</a> 继续阅读w
+              因为 Telegram 账号经常被冻结，频道就暂时不建了
             </p>
             <p className="fade-in" style={{ animationDelay: '1s' }}>
-              同时，也可以在其他地方找到秋~ <br /> 例如 <a rel="me" href="https://el5.net/@AmeyamaAki">Mastodon</a> / <a href="https://bsky.app/profile/aki.cat">Bluesky</a> / <a href="https://x.com/Ameyama_aki" className="font-medium">X</a>
+              也可以在其他地方联系到秋~ <br /> 例如 <a rel="me" href="https://el5.net/@AmeyamaAki">Mastodon</a> / <a href="https://bsky.app/profile/aki.cat">Bluesky</a> / <a href="https://x.com/Ameyama_aki" className="font-medium">X</a>
             </p>
             <p className="fade-in" style={{ animationDelay: '1.2s' }}>
-              或许可以看看 <Link href="/friends">其他人的链接</Link> ！
+              要不来看看 <Link href="/friends">其他人的链接</Link> ！
             </p>
           </div>
         </div>
