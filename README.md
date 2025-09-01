@@ -37,4 +37,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ---
 
-Think with 🧠, and made with 💖
+Think with 🧠, made with 💖 and AI 🤖

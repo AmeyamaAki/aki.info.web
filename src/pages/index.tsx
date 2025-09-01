@@ -13,9 +13,13 @@ const twin = Noto_Serif_JP({
 
 export const getServerSideProps: GetServerSideProps = async () => {
   const descriptions = [
-    "僕を連れてって浸み込んでしまう前に",
-    "溶け合い未来へ届くようにと",
-    "you know it's naughty virtual virtualize a life alive"
+      "僕を連れてって浸み込んでしまう前に",
+      "溶け合い未来へ届くようにと",
+      "you know it's naughty virtual virtualize a life alive",
+      "まだ名前も何もない始まりも終わりもない距離感でいたい",
+      "どうかこのまま時間を止めて", // 与上一条来源一致，怕自己忘记了所以就备注一下 (x)
+      "傘を翳して逃げ惑いたいよ"
+
   ];
   return {
     props: {
@@ -34,8 +38,8 @@ const Home: React.FC<{ randomOutput: string }> = ({ randomOutput }) => {
         keyIndex++;
         if (keyIndex === keySequence.length) {
           alert("生まれ変わってもあたしがいいと思わないよ");
-          console.log('You find it! 秋没想好放点什么，于是就奖励你一颗星星~ 🌟');
-          window.open(atob("dGc6Ly9yZXNvbHZlP2RvbWFpbj1kbV9ha2lfYm90"));
+          console.log('You find it!  但是秋没想好放点什么，为了弥补，就奖励你一颗星星~ 🌟');
+          window.open(atob("dGc6Ly9yZXNvbHZlP2RvbWFpbj12aWFfMDY1NQ=="));
           keyIndex = 0;
         }
       } else {
@@ -66,7 +70,7 @@ const Home: React.FC<{ randomOutput: string }> = ({ randomOutput }) => {
               银杏树之下，躺着一位叫「雨山秋」的孩子
             </p>
             <p className="fade-in" style={{ animationDelay: '0.4s' }}>
-              秋的身上，仍然有许多谜一样的东西... <br />当然，也有一些已知的信息：
+              秋的身上，仍然有许多谜一样的东西还没被挖掘出来... <br />庆幸的是，也有一些已知的信息：
             </p>
             <blockquote className="blockquote-custom fade-in" style={{ animationDelay: '0.6s' }}>
               <ul className="list-disc pl-5 space-y-2">
@@ -76,10 +80,10 @@ const Home: React.FC<{ randomOutput: string }> = ({ randomOutput }) => {
               </ul>
             </blockquote>
             <p className="fade-in" style={{ animationDelay: '0.8s' }}>
-              因为 Telegram 账号经常被冻结，频道就暂时不建了
+              Telegram ...（思索） <br /> 账号经常被冻结，频道就暂时不建了，<del>除非能找到秋（点头）</del>
             </p>
             <p className="fade-in" style={{ animationDelay: '1s' }}>
-              也可以在其他地方联系到秋~ <br /> 例如 <a rel="me" href="https://el5.net/@AmeyamaAki">Mastodon</a> / <a href="https://bsky.app/profile/aki.cat">Bluesky</a> / <a href="https://x.com/Ameyama_aki" className="font-medium">X</a>
+              不过呢，也可以在其他<del>一些意想不到的</del>地方联系到秋~ <br /> 例如 <a rel="me" href="https://el5.net/@AmeyamaAki">Mastodon</a> / <a href="https://bsky.app/profile/aki.cat">Bluesky</a> / <a href="https://x.com/Ameyama_aki">X</a> / <a href="https://matrix.to/#/@ameyamaki:matrix.org"> Matrix </a>
             </p>
             <p className="fade-in" style={{ animationDelay: '1.2s' }}>
               要不来看看 <Link href="/friends">其他人的链接</Link> ！
