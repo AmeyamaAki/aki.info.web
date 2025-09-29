@@ -5,7 +5,10 @@ import React, { useState } from 'react';
 const Footer: React.FC = () => {
   const [isHovered, setIsHovered] = useState(false);
   const commitSha = process.env.NEXT_PUBLIC_GIT_COMMIT_SHA || 'unknown';
-  const githubUrl = 'https://github.com/AmeyamaAki/aki.info.web/commit/' + commitSha
+  const domains = ['github.com', 'codeberg.org'];
+  const randomDomain = domains[Math.floor(Math.random() * domains.length)];
+  const githubUrl = 'https://' + randomDomain + '/AmeyamaAki/aki.info.web/commit/' + commitSha;
+  // 本来想用 getServerSideProps，综合考虑下来还是用了最老套的方法
 
   return (
     <footer 
