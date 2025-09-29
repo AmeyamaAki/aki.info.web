@@ -80,13 +80,16 @@ const Home: React.FC<{ randomOutput: string }> = ({ randomOutput }) => {
               </ul>
             </blockquote>
             <p className="fade-in" style={{ animationDelay: '0.8s' }}>
-              Telegram ...（思索） <br /> 账号经常被冻结，频道就暂时不建了，<del>除非能找到秋（点头）</del>
+              有关秋的日产生活吧... 可以左转 <a href="https://t.me/x51234321" className="font-medium">@0x51234321</a> 看看w
             </p>
             <p className="fade-in" style={{ animationDelay: '1s' }}>
-              不过呢，也可以在其他<del>一些意想不到的</del>地方联系到秋~ <br /> 例如 <a rel="me" href="https://el5.net/@AmeyamaAki">Mastodon</a> / <a href="https://bsky.app/profile/aki.cat">Bluesky</a> / <a href="https://x.com/Ameyama_aki">X</a> / <a href="https://matrix.to/#/@ameyamaki:matrix.org"> Matrix </a>
+              不过呢，也可以在其他<del>一些意想不到的</del>地方看到秋，联系秋~
             </p>
             <p className="fade-in" style={{ animationDelay: '1.2s' }}>
-              要不来看看 <Link href="/friends">其他人的链接</Link> ！
+                例如 <a rel="me" href="https://el5.net/@AmeyamaAki">Mastodon</a> / <a href="https://bsky.app/profile/aki.cat">Bluesky</a> / <a href="https://x.com/Ameyama_aki">X</a> / <a href="https://matrix.to/#/@ameyamaki:matrix.org"> Matrix </a>
+            </p>
+            <p className="fade-in" style={{ animationDelay: '1.4s' }}>
+              最后，要不来看看 <Link href="/friends">其他人的链接</Link> ！
             </p>
           </div>
         </div>
