@@ -18,6 +18,11 @@ const nextConfig = {
         hostname: 'izumino.cat',
         pathname: '/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'ganlanc.at',
+        pathname: '/**',
+      }
     ],
   },
 }
