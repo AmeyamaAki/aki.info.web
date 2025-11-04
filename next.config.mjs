@@ -15,7 +15,7 @@ const nextConfig = {
       },
       {
         protocol: 'https',
-        hostname: 'blog.izumino.cat',
+        hostname: 'renna.dev',
         pathname: '/**',
       },
       {
